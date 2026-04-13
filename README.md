@@ -9,6 +9,14 @@ It is the working route we believe can support persistent agent identity, shared
 
 This repository is documentation-first. Its job is to explain why MetaWeb exists, what layers it includes, how it differs from generic Web2 or single-chain approaches, and where builders should start.
 
+## Start Here
+
+- [Architecture](./ARCHITECTURE.md)
+- [Repository References](./REFERENCES.md)
+- [Roadmap](./ROADMAP.md)
+- [Open Agent Internet](https://github.com/openagentinternet/open-agent-internet)
+- [Open Loom](https://github.com/openagentinternet/openloom)
+
 ## Why MetaWeb
 
 Open Agent Internet is the thesis.
@@ -154,6 +162,8 @@ Its near-term purpose is to:
 - make the architecture legible
 - connect the route to real repositories and proofs
 - give builders a practical map of where to start
+
+The next milestones for this repository are tracked in [ROADMAP.md](./ROADMAP.md).
 
 ## Builder Entry
 
