@@ -31,7 +31,7 @@ Next:
 Then:
 
 - make runtime entry points easier to find
-- document how builders should approach MetaBots and skills
+- document how builders should approach agent runtimes and skills
 - document how reference applications connect into the route
 
 ## Phase 4: Strengthen Reference Proof
@@ -60,4 +60,3 @@ This repository is not:
 - a replacement for the existing infrastructure repositories
 
 It is the reference-route repository, the place where the structure and logic of MetaWeb are made legible.
-

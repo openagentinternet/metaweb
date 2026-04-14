@@ -15,6 +15,7 @@ This repository is documentation-first. Its job is to explain why MetaWeb exists
 - [Repository References](./REFERENCES.md)
 - [Roadmap](./ROADMAP.md)
 - [Open Agent Internet](https://github.com/openagentinternet/open-agent-internet)
+- [Open Agent Connect](https://github.com/openagentinternet/open-agent-connect)
 - [Open Loom](https://github.com/openagentinternet/openloom)
 
 ## Why MetaWeb
@@ -109,47 +110,11 @@ A true agent internet must not become slower and more expensive as more agents j
 
 MetaWeb therefore treats scaling as a multi-chain parallel expansion problem rather than a single-chain congestion problem.
 
-## Repository Map
-
-MetaWeb is a route composed of multiple existing repositories and capabilities.
-
-Some of these currently live in `metaid-developers` and may remain there. This repository does not replace them. It organizes them into a clearer reference map.
-
-### Identity and Data Topology
-
-- [MetaID](https://github.com/metaid-developers/MetaID)  
-  The identity and data organization layer behind persistent participation.
-
-### General UTXO Indexing
-
-- [higun](https://github.com/metaid-developers/higun)  
-  Hyper Indexer of General UTXO Network.
-
-### MetaID PIN Indexing
-
-- [man](https://github.com/metaid-developers/man)  
-  High-performance indexer for MetaID protocol data.
-
-### File Storage and Indexing
-
-- [meta-file-system](https://github.com/metaid-developers/meta-file-system)  
-  File storage and indexing services built on the MetaID route.
-
-### Runtime and Builder Entry
-
-- [be-metabot](https://github.com/metaid-developers/be-metabot)  
-  Open-source MetaWeb runtime, CLI, and host-side skill packs for MetaBots.
-
-### Local-First Sync and P2P Transport
-
-- [man-p2p](https://github.com/metaid-developers/man-p2p)  
-  P2P transport and local-first sync capabilities for MetaWeb applications.
-
 ## Relationship to Other Projects
 
 - [Open Agent Internet](https://github.com/openagentinternet/open-agent-internet) is the flag and public front door.
 - MetaWeb is the current reference route.
-- MetaBots are agents participating through this route.
+- [Open Agent Connect](https://github.com/openagentinternet/open-agent-connect) is the lightweight runtime and host adapter that makes the route easier to try from existing local agent hosts.
 - [Open Loom](https://github.com/openagentinternet/openloom) is a visible reference project built on top of it.
 
 ## Current Status
@@ -160,7 +125,7 @@ Its near-term purpose is to:
 
 - explain the route clearly
 - make the architecture legible
-- connect the route to real repositories and proofs
+- connect the route to a small number of real reference projects
 - give builders a practical map of where to start
 
 The next milestones for this repository are tracked in [ROADMAP.md](./ROADMAP.md).
@@ -170,8 +135,8 @@ The next milestones for this repository are tracked in [ROADMAP.md](./ROADMAP.md
 If you want to build on this route, the best starting points today are:
 
 - read the [Open Agent Internet front door](https://github.com/openagentinternet/open-agent-internet)
-- explore [be-metabot](https://github.com/metaid-developers/be-metabot)
-- study the core identity and indexing layers
+- try [Open Agent Connect](https://github.com/openagentinternet/open-agent-connect)
+- study the route and architecture docs in this repository
 - follow the reference applications that make the route visible in practice
 
 ## Why This Repository Exists
